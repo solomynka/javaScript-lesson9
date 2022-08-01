@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+	
+	.error{
+	border-color: red;
+	background-color: #faa;
+	}
+	
+</style>
+
+</head>
+<body>
+
+	<h1>Registration form</h1>
+	
+	<form>
+		<label>Last Name</label><br><input type="text" id="lName">
+		<br>
+		<label>First Name</label><br><input type="text" id="fName">
+		<br>
+		<label>Age</label><br><input type="text" id="age">
+		<br>
+		<label>Address</label><br><input type="text" id="address">
+		<br>
+		<input type="button" value="Send by Get" onclick="sendDataByGetMethod()">
+		<input type="button" value="Send by Post" onclick="sendDataByPostMethod()">
+		
+	</form>
+
+<script src="ajax.js"></script>
+</body>
+</html>
